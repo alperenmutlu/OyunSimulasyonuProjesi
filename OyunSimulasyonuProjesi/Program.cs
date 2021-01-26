@@ -87,10 +87,10 @@ namespace OyunSimulasyonuProjesi
             Console.WriteLine();
 
             BaseSalesManager baseSalesManager = new SteamSalesManager();
-            Sales sales1 = new Sales();
+            Sales sales1 = new Sales() {Id = 1, GameName = "War ROCK" };
             baseSalesManager.Add(sales1);
 
-            Sales sales2 = new Sales();
+            Sales sales2 = new Sales() { Id = 2, GameName = "CSGO"};
             baseSalesManager.Add(sales2);
 
 
